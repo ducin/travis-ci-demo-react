@@ -2,7 +2,13 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+function doesSomething(){
+  console.log(Math.random())
+}
+
 function App() {
+  doesSomething();
+
   return (
     <div className="App">
       <header className="App-header">
